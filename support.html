@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Anxiety Exposure Companion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 22px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+        
+        .faq-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+        
+        .faq-question {
+            color: #2c3e50;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .faq-answer {
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .faq-answer ul {
+            margin-top: 10px;
+            padding-left: 25px;
+        }
+        
+        .faq-answer li {
+            margin-bottom: 8px;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .contact-section h2 {
+            color: white;
+            margin-top: 0;
+        }
+        
+        .contact-section p {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .email-button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        
+        .email-button:hover {
+            transform: translateY(-2px);
+        }
+        
+        .quick-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .link-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        
+        .link-card:hover {
+            transform: translateY(-3px);
+        }
+        
+        .link-card-icon {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .link-card-title {
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .link-card-desc {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #ecf0f1;
+            color: #95a5a6;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 640px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-icon">
+                💜
+            </div>
+            <h1>Anxiety Exposure Tracker Support</h1>
+            <p>Your companion for exposure therapy</p>
+        </div>
+
+        <div class="quick-links">
+            <div class="link-card">
+                <div class="link-card-icon">📱</div>
+                <div class="link-card-title">Getting Started</div>
+                <div class="link-card-desc">New to the app?</div>
+            </div>
+            <div class="link-card">
+                <div class="link-card-icon">🔒</div>
+                <div class="link-card-title">Privacy First</div>
+                <div class="link-card-desc">Your data stays private</div>
+            </div>
+            <div class="link-card">
+                <div class="link-card-icon">💡</div>
+                <div class="link-card-title">Tips & Tricks</div>
+                <div class="link-card-desc">Get the most from the app</div>
+            </div>
+            <div class="link-card">
+                <div class="link-card-icon">❤️</div>
+                <div class="link-card-title">Mental Health</div>
+                <div class="link-card-desc">Resources & support</div>
+            </div>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">How do I get started with exposure therapy?</div>
+            <div class="faq-answer">
+                Start by creating your Fear Hierarchy in the Tools tab. List situations that cause anxiety, rating them from 1-10. Begin with lower-rated items and gradually work your way up. Always consult with a mental health professional if you're new to exposure therapy.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Is my data private and secure?</div>
+            <div class="faq-answer">
+                Yes! All your data is stored locally on your device only. We don't have servers, user accounts, or any way to access your information. When you delete the app, all data is permanently removed. Your privacy is absolute.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How do I track an exposure session?</div>
+            <div class="faq-answer">
+                <ul>
+                    <li>Tap the "Log Exposure" tab</li>
+                    <li>Enter a title and description</li>
+                    <li>Start the timer when you begin</li>
+                    <li>Rate your anxiety before, during (peak), and after</li>
+                    <li>Record thoughts and physical sensations</li>
+                    <li>Note which coping strategies you used</li>
+                    <li>Save when complete</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">What's the difference between exposure types?</div>
+            <div class="faq-answer">
+                <ul>
+                    <li><strong>Situational:</strong> Real-world situations (stores, driving, crowds)</li>
+                    <li><strong>Interoceptive:</strong> Physical sensations (spinning, hyperventilating)</li>
+                    <li><strong>Imaginal:</strong> Imagining feared scenarios</li>
+                    <li><strong>Social:</strong> Social interactions and situations</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How do I backup my data?</div>
+            <div class="faq-answer">
+                Your data is automatically included in your iPhone's regular backups (iCloud or iTunes/Finder). To ensure backups are enabled, go to Settings → [Your Name] → iCloud → iCloud Backup and make sure it's turned on.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Can I export my data to share with my therapist?</div>
+            <div class="faq-answer">
+                Currently, you can take screenshots of your progress charts and exposure history to share. We're working on adding a proper export feature in a future update.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">What if I'm having a mental health crisis?</div>
+            <div class="faq-answer">
+                If you're in crisis, please reach out for help immediately:
+                <ul>
+                    <li><strong>Emergency:</strong> Call 911 (US) or your local emergency number</li>
+                    <li><strong>Crisis Hotline:</strong> Call or text 988 (US)</li>
+                    <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
+                    <li><strong>International:</strong> Visit findahelpline.com</li>
+                </ul>
+                This app is a tool to support your journey, not a replacement for professional help.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How do I delete my data?</div>
+            <div class="faq-answer">
+                You can delete individual entries by swiping left on them in the History tab. To delete all data, simply delete the app from your device. All data is stored locally, so removing the app permanently erases everything.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Why isn't the app syncing across my devices?</div>
+            <div class="faq-answer">
+                The app doesn't sync because we don't use cloud storage - this is a privacy feature, not a limitation. All data stays on your device only. If you need the app on multiple devices, you'll need to track separately on each one.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Is this app a replacement for therapy?</div>
+            <div class="faq-answer">
+                No. This app is designed to complement professional treatment, not replace it. It's a tool to help track your exposure therapy exercises and progress. Always work with a qualified mental health professional for anxiety disorders.
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2>Still Need Help?</h2>
+            <p>We're here to support your journey. Reach out with questions, feedback, or suggestions.</p>
+            <p>Response time: Usually within 24-48 hours</p>
+            <a href="mailto:exposurecompanionapp@gmail.com" class="email-button">Email Support</a>
+        </div>
+
+        <h2>Tips for Success</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">🎯 Start Small</div>
+            <div class="faq-answer">
+                Begin with situations rated 3-4 on your fear hierarchy. Success with easier exposures builds confidence for harder ones.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">⏱️ Stay Long Enough</div>
+            <div class="faq-answer">
+                Stay in the exposure until your anxiety decreases by at least 50%. This teaches your brain the situation is safe.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">📊 Track Everything</div>
+            <div class="faq-answer">
+                Log both successful and difficult exposures. Seeing patterns in your data helps identify what works.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">🔄 Practice Regularly</div>
+            <div class="faq-answer">
+                Aim for daily exposures, even small ones. Consistency is more important than intensity.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">💪 Celebrate Progress</div>
+            <div class="faq-answer">
+                Every exposure is a victory, regardless of anxiety levels. You're facing your fears - that takes courage!
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 Anxiety Exposure Tracker. Made with 💜 for the anxiety community.</p>
+            <p><a href="index.html" style="color: #95a5a6;">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
